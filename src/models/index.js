@@ -15,7 +15,7 @@ connectDatabase.connect(function (err) {
         throw err;
     }
 
-    console.log('Connected');
+    console.log(`Connected to database: ${process.env.DB_NAME}`);
 });
 
 const queryDatabase = async (connect, sql, params) =>

@@ -40,9 +40,12 @@ npm i
 4. Run project
 
 ```
+# Note: Must run the amazon-scraper project first. `https://github.com/TranPhucTien/amazon-scraper`
+
 # Run project
 npm start
 > ⚡️[server]: Server is running at 5000
+> connected: <database_name>
 
 # Goto the /src/index.js, uncomment `insert*` functions. And `Ctrl S to run`
 # Note: Run only one function each time

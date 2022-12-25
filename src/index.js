@@ -41,8 +41,7 @@ app.listen(PORT, () => {
 
 // ---------------- INSERT INTO PRODUCT -----------------
 // Vendor code must be in the vendor table. Insert VENDOR in ./sql/insertTables.sql
-// Default value for name of PRODUCT: laptop
-// Default value for vendorCode of PRODUCT: 1
+// Must run the amazon-scraper project to run this function
 // insertProduct({ name: 'kindle', vendorCode: 2 });
 
 // ---------------- INSERT INTO INVOICE -----------------
