@@ -43,7 +43,7 @@ app.listen(PORT, () => {
 // Vendor code must be in the vendor table. Insert VENDOR in ./sql/insertTables.sql
 // Default value for name of PRODUCT: laptop
 // Default value for vendorCode of PRODUCT: 1
-insertProduct({ name: 'kindle', vendorCode: 2 });
+// insertProduct({ name: 'kindle', vendorCode: 2 });
 
 // ---------------- INSERT INTO INVOICE -----------------
 // Must have value of CUSTOMER table
